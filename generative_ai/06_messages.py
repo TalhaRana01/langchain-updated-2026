@@ -21,7 +21,7 @@ messages = [
 ]
 response = model.invoke(messages)
 # print(response.usage_metadata)
-print(response.content)
+print(response["messages"])
 
 
 
